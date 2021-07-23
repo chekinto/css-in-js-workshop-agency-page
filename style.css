@@ -35,10 +35,6 @@ p {
   color: var(--gray-very-dark);
 }
 
-section {
-  padding: 6rem 0;
-}
-
 .max-width-wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -63,6 +59,7 @@ section {
 
 main {
   background-color: var(--gray-light);
+  padding: 5rem 0;
 }
 
 .card {
@@ -75,11 +72,10 @@ main {
 
 .indented-heading {
   background-color: var(--gold-light);
-  padding: 1rem 3rem;
-  border-bottom: 0.5rem solid var(--gold-dark);
-  position: relative;
-  left: -3rem;
-  top: -1rem;
   width: fit-content;
-  margin-right: -3rem;
+  padding: 1rem 2.5rem;
+  border-bottom: 0.5rem solid var(--gold-dark);
+  margin-left: -2.5rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
